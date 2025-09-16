@@ -1,45 +1,61 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import logo from "../assets/logo.png";
-// import useFetch from "../hooks/useFetch.js";
 import "./Team.css";
 
-import teamMembers from "../data/team.js";
+import { currentMembers, pastMembers } from "../data/team.js";
 
 function Team() {
-  // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/teammembers?populate=*");
+  const [members, setMembers] = useState(currentMembers);
+  const [activeTab, setActiveTab] = useState("current");
 
   useEffect(() => {
     document.title = "Our Team | National Adolescent Girls Network Nepal";
   }, []);
 
-  // if (loading) return (
-  //   <div className="team-page">
-  //     <Header />
-  //     <div className="team-loading">Loading team information...</div>
-  //     <Footer />
-  //   </div>
-  // );
-
-  // if (error) return (
-  //   <div className="team-page">
-  //     <Header />
-  //     <div className="team-error">Error loading team information. Please try again later.</div>
-  //     <Footer />
-  //   </div>
-  // );
-
-  // const teamMembers = data?.data || [];
-
   return (
     <div className="team-page">
       <Header />
       <div className="team-container">
-        <h1 className="team-title">Our Team</h1>
+        <h1 className="team-title">Meet Our Team</h1>
+
+        {/* add a toggle button to switch between current and past members */}
+        <div
+          className="team-toggle"
+          role="tablist"
+          aria-label="Team category tabs"
+        >
+          <button
+            role="tab"
+            aria-selected={activeTab === "current"}
+            className={`team-toggle-btn ${
+              activeTab === "current" ? "active" : ""
+            }`}
+            onClick={() => {
+              setMembers(currentMembers);
+              setActiveTab("current");
+            }}
+          >
+            Current Members
+          </button>
+          <button
+            role="tab"
+            aria-selected={activeTab === "past"}
+            className={`team-toggle-btn ${
+              activeTab === "past" ? "active" : ""
+            }`}
+            onClick={() => {
+              setMembers(pastMembers);
+              setActiveTab("past");
+            }}
+          >
+            Past Members
+          </button>
+        </div>
         <div className="team-members">
-          {teamMembers.length > 0 ? (
-            teamMembers.map((member) => (
+          {members.length > 0 ? (
+            members.map((member) => (
               <div key={member.id} className="team-member">
                 <div className="member-image-container">
                   <img
@@ -58,7 +74,7 @@ function Team() {
               </div>
             ))
           ) : (
-            <p>No team members found</p>
+            <p>No members found</p>
           )}
         </div>
       </div>

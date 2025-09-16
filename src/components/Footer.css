@@ -55,7 +55,7 @@
 }
 
 .footer-links a:hover {
-  color: #2563eb;
+  color: #B61B8A;
 }
 
 .footer-contact p {
@@ -74,13 +74,13 @@
 }
 
 .footer-social-link:hover {
-  color: #2563eb;
+  color: #B61B8A;
 }
 
 .footer-contact svg {
   width: 18px;
   height: 18px;
-  color: #2563eb;
+  color: #B61B8A;
 }
 
 .footer-bottom {

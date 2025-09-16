@@ -15,7 +15,7 @@
 
 .team-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   color: #333;
   font-size: 2.5rem;
   position: relative;
@@ -26,7 +26,7 @@
   display: block;
   width: 80px;
   height: 3px;
-  background-color: #4682B4;
+  background-color: #B61B8A;
   margin: 15px auto 0;
 }
 
@@ -45,6 +45,55 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
+  padding: 10px 0px;
+}
+
+/* Team toggle tabs */
+.team-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin: 0 auto 30px;
+  flex-wrap: wrap;
+}
+
+.team-toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  color: #4b5563; /* slate-600 */
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.team-toggle-btn:hover {
+  color: #111827; /* gray-900 */
+}
+
+.team-toggle-btn.active {
+  color: #0f172a; /* slate-900 */
+  font-weight: 800;
+}
+
+/* Separator between buttons */
+.team-toggle-btn + .team-toggle-btn {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.team-toggle-btn + .team-toggle-btn::before {
+  content: '';
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 18px;
+  background-color: #cbd5e1; /* slate-300 */
 }
 
 .team-member {
@@ -97,12 +146,12 @@
   display: block;
   width: 40px;
   height: 2px;
-  background-color: #4682B4;
+  background-color: #B61B8A;
   margin-top: 8px;
 }
 
 .member-position {
-  color: #4682B4;
+  color: #B61B8A;
   font-weight: 600;
   margin: 10px 0 15px;
   font-size: 1.1rem;
@@ -130,5 +179,17 @@
     grid-template-columns: 1fr;
     max-width: 450px;
     margin: 0 auto;
+  }
+
+  .team-toggle {
+    gap: 2px;
+  }
+
+  .team-toggle-btn + .team-toggle-btn {
+    padding-left: 1.25rem;
+  }
+
+  .team-toggle-btn + .team-toggle-btn::before {
+    left: 0.5rem;
   }
 }

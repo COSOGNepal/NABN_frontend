@@ -61,12 +61,12 @@
 }
 
 .button-primary {
-  background-color: #3182CE;
+  background-color: #B61B8A;
   color: white;
 }
 
 .button-primary:hover {
-  background-color: #2B6CB0;
+  background-color: #9e1776;
 }
 
 @media (max-width: 768px) {

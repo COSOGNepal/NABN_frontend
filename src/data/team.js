@@ -21,7 +21,7 @@ import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg"
 import KarunaBhandari from "../assets/images/team/karuna bhandari.jpeg";
 import KripaKafle from "../assets/images/team/Kripa Kafle.jpeg";
 
-const data = [
+const currentMembers = [
   {
     name: "Anuska Neupane",
     position: "President",
@@ -208,4 +208,47 @@ const data = [
   },
 ];
 
-export default data;
+const pastMembers = [
+  {
+    name: "Tulsi Darshan",
+    position: "President (2012-2014)",
+    image: {
+      url: "",
+    },
+    description: "",
+  },
+  {
+    name: "Monika Ranabhat",
+    position: "President (2015-2018)",
+    image: {
+      url: "",
+    },
+    description: "",
+  },
+  {
+    name: "Menuka Thapa",
+    position: "President (2019-2020)",
+    image: {
+      url: "",
+    },
+    description: "",
+  },
+  {
+    name: "Lalita Tamang",
+    position: "President (2021-2022)",
+    image: {
+      url: "",
+    },
+    description: "",
+  },
+  {
+    name: "Kripa Kafle",
+    position: "President (2023-2024)",
+    image: {
+      url: "",
+    },
+    description: "",
+  },
+];
+
+export { currentMembers, pastMembers };

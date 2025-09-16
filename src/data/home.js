@@ -51,11 +51,11 @@ const data = {
   },
   impactSection: {
     title: "Our Impact",
-    fact1: "500+",
+    fact1: "2000+",
     fact1description: "Students Taught",
-    fact2: "20+",
+    fact2: "30+",
     fact2description: "Educational Programs",
-    fact3: "15",
+    fact3: "20+",
     fact3description: "Partner Schools",
   },
   ctaSection: {
