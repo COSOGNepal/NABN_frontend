@@ -50,7 +50,7 @@ function Team() {
               setActiveTab("past");
             }}
           >
-            Past Members
+            Past Presidents
           </button>
         </div>
         <div className="team-members">

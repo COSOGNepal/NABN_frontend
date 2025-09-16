@@ -21,6 +21,12 @@ import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg"
 import KarunaBhandari from "../assets/images/team/karuna bhandari.jpeg";
 import KripaKafle from "../assets/images/team/Kripa Kafle.jpeg";
 
+// past presidents
+import TulsiDarshan from "../assets/images/team/Tulsi Darshan.jpeg";
+import MonikaRanabhat from "../assets/images/team/Monika Ranabhat.jpeg";
+import MenukaThapa from "../assets/images/team/Menuka Thapa.jpeg";
+import LalitaTamang from "../assets/images/team/Lalita Tamang.jpeg";
+
 const currentMembers = [
   {
     name: "Anuska Neupane",
@@ -70,6 +76,16 @@ const currentMembers = [
     },
     description: "Kathmandu, Bagmati",
   },
+
+  {
+    name: "Kripa Kafle",
+    position: "IPP (Advisor)",
+    image: {
+      url: KripaKafle,
+    },
+    description: "Sindhuli , Bagmati",
+  },
+
   {
     name: "Santa Tiwari",
     position: "Board Member",
@@ -197,15 +213,6 @@ const currentMembers = [
     },
     description: "Dang , Lumbini",
   },
-
-  {
-    name: "Kripa Kafle",
-    position: "IPP",
-    image: {
-      url: KripaKafle,
-    },
-    description: "Sindhuli , Bagmati",
-  },
 ];
 
 const pastMembers = [
@@ -213,7 +220,7 @@ const pastMembers = [
     name: "Tulsi Darshan",
     position: "President (2012-2014)",
     image: {
-      url: "",
+      url: TulsiDarshan,
     },
     description: "",
   },
@@ -221,7 +228,7 @@ const pastMembers = [
     name: "Monika Ranabhat",
     position: "President (2015-2018)",
     image: {
-      url: "",
+      url: MonikaRanabhat,
     },
     description: "",
   },
@@ -229,7 +236,7 @@ const pastMembers = [
     name: "Menuka Thapa",
     position: "President (2019-2020)",
     image: {
-      url: "",
+      url: MenukaThapa,
     },
     description: "",
   },
@@ -237,15 +244,7 @@ const pastMembers = [
     name: "Lalita Tamang",
     position: "President (2021-2022)",
     image: {
-      url: "",
-    },
-    description: "",
-  },
-  {
-    name: "Kripa Kafle",
-    position: "President (2023-2024)",
-    image: {
-      url: "",
+      url: LalitaTamang,
     },
     description: "",
   },
