@@ -1,68 +1,72 @@
-import BibekShah from "../assets/images/team/Bibek_shah.jpeg";
-import BigyanShrestha from "../assets/images/team/Bigyan_Shrestha.jpeg";
-import BijayaRajJosi from "../assets/images/team/Bijaya_raj_josi.jpeg";
-import BishwajitKc from "../assets/images/team/Bishwajit_kc.jpeg";
-import DilliAdhikari from "../assets/images/team/Dilli_Adhikari.jpeg";
-import DiwashSarraf from "../assets/images/team/Diwash_Sarraf.jpeg";
-import FirojKhadka from "../assets/images/team/Firoj_khadka.jpeg";
-import GhanashyamBishwokarma from "../assets/images/team/Ghanashyam_Bishwokarma.jpeg";
-import GovindaRajAwasth from "../assets/images/team/Govinda_raj_awasth.jpeg";
-import JiwanBhushal from "../assets/images/team/Jiwan_Bhushal.jpeg";
-import NirijanaBhattarai from "../assets/images/team/Nirijana_Bhattarai.jpeg";
-import PrabeshRajPandey from "../assets/images/team/Prabesh_raj_pandey.jpeg";
-import PrakashBadu from "../assets/images/team/Prakash_badu.jpeg";
-import PrakashSharma from "../assets/images/team/Prakash_sharma.jpeg";
-import PralavParajuli from "../assets/images/team/pralav_Parajuli.jpeg";
-import RahulMahato from "../assets/images/team/Rahul_mahato.jpeg";
-import RakeshDhami from "../assets/images/team/Rakesh_dhami.jpeg";
-import SonuRajput from "../assets/images/team/Sonu_Rajput.jpeg";
-import SudipPaudel from "../assets/images/team/Sudip_Paudel.jpeg";
-import SumanYadav from "../assets/images/team/Suman_yadav.jpeg";
-import SushantShrestha from "../assets/images/team/Sushant_Shrestha.jpeg";
-import AronPoudel from "../assets/images/team/AronPaudel.jpeg";
-import AshminParajuli from "../assets/images/team/Ashmin_parajuli.jpeg";
-import SubashSharma from "../assets/images/team/Subash_Sharma.jpeg";
+import AnuskaNeupane from "../assets/images/team/1 . Anuska Neupane_.webp";
+import BishakhaRajyalaxmi from "../assets/images/team/2. Bishakha Rajyalaxmi_.jpg";
+import KritikaDhital from "../assets/images/team/3. Kritika Dhital_.jpg";
+import SurakshyaGautam from "../assets/images/team/4. Surakshya Gautam_.jpg";
+import SamiraGautam from "../assets/images/team/5 . Samira Gautam_.jpg";
+import SantaTiwari from "../assets/images/team/6. Santa Tiwari_.jpg";
+import SujataPoudel from "../assets/images/team/7. Sujata Poudel_.jpg";
+import SwostikaSharmaPathak from "../assets/images/team/8. Swostika Sharma Pathak_.jpg";
+import SapanaMalasi from "../assets/images/team/9.Sapana Malasi_.jpg";
+import ShristiAryal from "../assets/images/team/10. Shristi Aryal_.jpg";
+import LaxmiTamang from "../assets/images/team/11. Laxmi  Tamang_.jpg";
+import DawalekiSherpa from "../assets/images/team/12. Dawaleki Sherpa_.jpg";
+import AnjaliKumariKushwaha from "../assets/images/team/13.Anjali Kumari Kushwaha_.jpg";
+import KhusiGupta from "../assets/images/team/14. Khusi Gupta_.jpg";
+import BimalaJoshi from "../assets/images/team/15. Bimala Joshi_.jpg";
+import SaeenPathak from "../assets/images/team/16. saeen Pathak_.jpg";
+import AbegailPariyar from "../assets/images/team/17. Abegail Pariyar.jpg";
+import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary_.jpg";
+import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
+import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg";
+import KarunaBhandari from "../assets/images/team/karuna bhandari.jpeg";
+import KripaKafle from "../assets/images/team/Kripa Kafle.jpeg";
 
-const data = [
+// past presidents
+import TulsiDarshan from "../assets/images/team/Tulsi Darshan.jpeg";
+import MonikaRanabhat from "../assets/images/team/Monika Ranabhat.jpeg";
+import MenukaThapa from "../assets/images/team/Menuka Thapa.jpeg";
+import LalitaTamang from "../assets/images/team/Lalita Tamang.jpeg";
+
+const currentMembers = [
   {
-    name: "Ghanshyam Bishwakarma",
+    name: "Anuska Neupane",
     position: "President",
     image: {
-      url: GhanashyamBishwokarma,
+      url: AnuskaNeupane,
     },
-    description: "Banphikot-5 , Rukum (west), Karnali",
+    description: "Belkotgadhi-6, Nuwakot, Bagmati",
   },
   {
-    name: "Rahul Kumar Mahato",
+    name: "Bishakha Rajyalaxmi",
     position: "Vice-President",
     image: {
-      url: RahulMahato,
+      url: BishakhaRajyalaxmi,
     },
-    description: "Bardibas-9, Mahottari, Madhesh",
+    description: "Bardiya, Lumbini",
   },
   {
-    name: "Sudip Poudel",
+    name: "Kritika Dhital",
     position: "Secretary",
     image: {
-      url: SudipPaudel,
+      url: KritikaDhital,
     },
-    description: "Bheerkot -5, Syangja,Gandaki",
+    description: "Bara, Madhesh",
   },
   {
-    name: "Suman Yadav",
+    name: "Surakshya Gautam",
     position: "Vice-Secretary",
     image: {
-      url: SumanYadav,
+      url: SurakshyaGautam,
     },
-    description: "Biratnagar -14 Morang, Koshi",
+    description: "Baglung, Gandaki",
   },
   {
-    name: "Bibek Sah",
+    name: "Samira Gautam",
     position: "Treasurer",
     image: {
-      url: BibekShah,
+      url: SamiraGautam,
     },
-    description: "Dudhauli -4 ,Sindhuli, Bagmati",
+    description: "Jajarkot, Karnali",
   },
   {
     name: "Nirijana Bhatta",
@@ -72,150 +76,178 @@ const data = [
     },
     description: "Kathmandu, Bagmati",
   },
+
   {
-    name: "Sushant Shrestha",
+    name: "Kripa Kafle",
+    position: "IPP (Advisor)",
+    image: {
+      url: KripaKafle,
+    },
+    description: "Sindhuli , Bagmati",
+  },
+
+  {
+    name: "Santa Tiwari",
     position: "Board Member",
     image: {
-      url: SushantShrestha,
+      url: SantaTiwari,
     },
-    description: "Sunwal-4 , Nawalparasi West, Lumbini",
+    description: "Surkhet, Karnali",
   },
   {
-    name: "Subash Sharma",
+    name: "Sujata Poudel",
     position: "Board Member",
     image: {
-      url: SubashSharma,
+      url: SujataPoudel,
     },
-    description: "Kumakh-6, Salyan, Karnali",
+    description: "Bheerkot-5, Syangja, Gandaki",
   },
   {
-    name: "Sonu Kumar Ray Yadav",
+    name: "Swostika Sharma Pathak",
     position: "Board Member",
     image: {
-      url: SonuRajput,
+      url: SwostikaSharmaPathak,
     },
-    description: "Mithila-2, Dhanusha, Madhesh",
+    description: "Chitwan, Bagmati",
   },
   {
-    name: "Rakesh Dhami",
+    name: "Sapana Malasi",
     position: "Board Member",
     image: {
-      url: RakeshDhami,
+      url: SapanaMalasi,
     },
-    description: "Malikarjun- 7 Darchula, Sudurpaschim",
+    description: "Doti, Sudurpaschim",
   },
   {
-    name: "Pralav Parajuli",
+    name: "Shristi Aryal",
     position: "Board Member",
     image: {
-      url: PralavParajuli,
+      url: ShristiAryal,
     },
-    description: "Itahari-7 Sunsari, Koshi",
+    description: "Kapilvastu, Lumbini",
   },
   {
-    name: "Prakash Sharma",
+    name: "Laxmi Tamang",
     position: "Board Member",
     image: {
-      url: PrakashSharma,
+      url: LaxmiTamang,
     },
-    description: "Karnali",
+    description: "Taplejung , koshi",
   },
   {
-    name: "Prakash Badu",
+    name: "Dawaleki Sherpa",
     position: "Board Member",
     image: {
-      url: PrakashBadu,
+      url: DawalekiSherpa,
     },
-    description: "Melauli-2,Baitadi, Sudurpaschim",
+    description: "Dolakha , bagmati",
   },
   {
-    name: "Prabesh Raj Pandey",
+    name: "Anjali Kumari Kushwaha",
     position: "Board Member",
     image: {
-      url: PrabeshRajPandey,
+      url: AnjaliKumariKushwaha,
     },
-    description: "Badhaiyataal-8 Bardiya, Lumbini",
+    description: "Mahottari , madesh",
   },
   {
-    name: "Jeevan Bhusal",
+    name: "Khusi Gupta",
     position: "Board Member",
     image: {
-      url: JiwanBhushal,
+      url: KhusiGupta,
     },
-    description: "Bihadi-4,Parbat,Gandaki",
+    description: "Morang , koshi",
   },
   {
-    name: "Govinda Awasthi",
+    name: "Bimala Joshi",
     position: "Board Member",
     image: {
-      url: GovindaRajAwasth,
+      url: BimalaJoshi,
     },
-    description: "Dhangadhi-13 Kailali, Sudurpaschim",
+    description: "Kailali , sudurpaschim",
   },
   {
-    name: "Firoj Khadka",
+    name: "Saeen Pathak",
     position: "Board Member",
     image: {
-      url: FirojKhadka,
+      url: SaeenPathak,
     },
-    description: "Pulchowk Lalitpur, Bagmati",
+    description: "kanchanpur , Sudurpaschim",
   },
   {
-    name: "Diwash Saraf",
+    name: "Abegail Pariyar",
     position: "Board Member",
     image: {
-      url: DiwashSarraf,
+      url: AbegailPariyar,
     },
-    description: "Birgunj-15 Parsa, Madhesh",
   },
   {
-    name: "Dilli Adhikari",
+    name: "Raj Nandani Chaudhary",
     position: "Board Member",
     image: {
-      url: DilliAdhikari,
+      url: RajNandaniChaudhary,
     },
-    description: "Surkhet Karnali",
+    description: "Saptari , madesh",
   },
   {
-    name: "Bishowjit KC",
+    name: "Binita Khanal",
     position: "Board Member",
     image: {
-      url: BishwajitKc,
+      url: BinitaKhanal,
     },
-    description: "Tribeni-5, Rolpa, Lumbini",
+    description: "Lumbini",
   },
+
   {
-    name: "Bigyan Shrestha",
+    name: "Jasmine Acharya",
+    position: "Board Member",
+
+    description: "Kaski Gandaki ",
+  },
+
+  {
+    name: "karuna bhandari",
     position: "Board Member",
     image: {
-      url: BigyanShrestha,
+      url: KarunaBhandari,
     },
-    description: "Panckhapan-6 Sankhuwasabha, Koshi",
-  },
-  {
-    name: "Ashmin Parajuli",
-    position: "Board Member",
-    image: {
-      url: AshminParajuli,
-    },
-    description: "Jadibuti -32 Kathmandu, Bagmati",
-  },
-  {
-    name: "Aron Poudel",
-    position: "Board Member",
-    image: {
-      url: AronPoudel,
-    },
-    description: "Pokhara Kaski, Gandaki",
-  },
-  {
-    name: "Bijaya Raj Joshi",
-    position: "Immediate Past President (IPP)",
-    image: {
-      url: BijayaRajJosi,
-    },
-    description: "Jayaprithvi-3 Bajhang, Sudurpaschim",
+    description: "Dang , Lumbini",
   },
 ];
 
-export default data;
+const pastMembers = [
+  {
+    name: "Tulsi Darshan",
+    position: "President (2012-2014)",
+    image: {
+      url: TulsiDarshan,
+    },
+    description: "",
+  },
+  {
+    name: "Monika Ranabhat",
+    position: "President (2015-2018)",
+    image: {
+      url: MonikaRanabhat,
+    },
+    description: "",
+  },
+  {
+    name: "Menuka Thapa",
+    position: "President (2019-2020)",
+    image: {
+      url: MenukaThapa,
+    },
+    description: "",
+  },
+  {
+    name: "Lalita Tamang",
+    position: "President (2021-2022)",
+    image: {
+      url: LalitaTamang,
+    },
+    description: "",
+  },
+];
+
+export { currentMembers, pastMembers };

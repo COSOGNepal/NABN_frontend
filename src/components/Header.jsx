@@ -15,7 +15,7 @@ function Header() {
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="Logo" />
-          <span className="org-name">NABN</span>
+          <span className="org-name">NAGN</span>
         </Link>
       </div>
 
@@ -45,7 +45,7 @@ function Header() {
             <Link to="/contact">CONTACT</Link>
           </li>
           <li>
-            <Link to="https://www.facebook.com/nabn.nepal/">CONNECT</Link>
+            <Link to="https://www.facebook.com/kishorisanjal">CONNECT</Link>
           </li>
         </ul>
       </nav>

@@ -8,53 +8,57 @@ const data = {
     {
       title: "Who are we?",
       descriptions: [
-        "The National Adolescent Boys Network Nepal (NABN) was founded on 14th Shrawan, 2078 (2021) with the primary objective of ensuring the comprehensive rights of children and adolescents, advocating for gender equality, ending gender-based violence, and empowering the active participation of adolescents in these efforts. The network was established with the clear vision that youth involvement is essential for achieving meaningful change in society.",
-        `
-Since its inception, NABN has made significant strides in promoting child and adolescent rights through a variety of initiatives across Nepal. These efforts have focused on crucial areas such as:
-`,
-        `
-        - Providing life skills training (both online and in-person) across the country.
-        - Enhancing the capacities of adolescents.
-        - Advocating for sexual and reproductive rights, mental health, climate justice, and online safety.
-        - Raising awareness about child marriage and other harmful practices, striving to reduce their prevalence across communities.
-        `,
-        "NABN has facilitated various workshops, training programs, interactive sessions, and advocacy campaigns to engage adolescents on a wide range of issues, including:",
-        `
-        - Gender-based violence.
-        - Climate justice.
-        - Sexual and reproductive rights.
-        - Online safety.
-        `,
-        "Through collaboration with government and non-government organizations, the network plays a vital role in monitoring policies, laws, and national plans related to child and adolescent rights.",
+        "National Adolescent Girls Network Nepal (NAGN)",
+        "Established: 11 October 2012",
+        "The National Adolescent Girls Network Nepal (NAGN) is a leading national platform committed to empowering adolescent girls, advocating for their rights, and promoting gender equality. NAGN envisions a Nepal where every adolescent girl is informed, confident, and capable of driving social change.",
       ],
     },
     {
       title: "Key Initiatives",
       descriptions: [
-        "Gender-Based Violence Awareness: NABN has specifically addressed the often-overlooked issue that boys can also be victims of sexual violence. The network campaigns to foster a broader conversation around gender justice and equality.",
+        "NAGN works on pressing issues that directly affect adolescent girls, including:",
+        "1. Child, Early and Forced Marriage (CEFM): Raising awareness and taking action to end early and forced marriages.",
+        "2. Sexual and Reproductive Health and Rights (SRHR): Ensuring girls have access to information and resources for making safe and informed health choices.",
+        "3. Gender-Based Violence (GBV): Preventing and responding to violence against girls through advocacy, awareness, and support.",
+        "4. Leadership and Advocacy: Training adolescent girls to become leaders and change-makers in their communities, building confidence, decision-making skills, and the ability to influence local and national policies.",
+        "5. Inclusion of Marginalized Girls: Ensuring girls from remote, underserved, and marginalized communities have a platform to voice concerns and participate equally in social and policy development.",
       ],
     },
     {
       title: "Structure and Reach:",
       descriptions: [
-        "- NABN currently has 23 central committee members.",
-        "- Provincial adolescent networks have been established in all seven provinces of Nepal, ensuring that youth across the country have a platform to voice their concerns, advocate for their rights, and contribute meaningfully to national discussions on policies and development agendas.",
-        "- The network prioritizes the inclusion of marginalized and vulnerable adolescents, especially in remote and underserved areas.",
+        "- NAGN is guided by a central committee of dedicated members who lead its national initiatives.",
+        "- Provincial adolescent networks are established in all seven provinces on 2022,  creating safe spaces for girls to raise their voices and influence policy.",
+        "- Special priority is given to the inclusion of marginalized and vulnerable adolescent girls, particularly from remote and underserved communities.",
       ],
     },
     {
-      title: "Mission and Vision",
+      title: "Mission",
       descriptions: [
-        "NABN is committed to breaking societal barriers, advocating for inclusive development, and empowering adolescent boys with the knowledge and tools necessary to participate actively in social change. By fostering a society where adolescents are empowered, informed, and actively engaged in shaping their futures, NABN works toward securing a brighter future for all adolescents in Nepal.",
+        "To empower adolescent girls through training, workshops, and capacity-building programs.",
+        "To create a ripple effect where empowered girls share knowledge with peers, families, and communities.",
+        "To equip girls with the confidence to understand their rights and advocate for themselves",
       ],
     },
     {
-      title: "Contact Info",
+      title: "Vision",
       descriptions: [
-        `Email Address: nabn.nepal@gmail.com
-Phone Number: 9868232973
-Physical Address: Kathmandu, Nepal
-        `,
+        "A Nepal where adolescent girls are informed, empowered, and active participants in building a just, inclusive, and equitable society.",
+      ],
+    },
+    {
+      title: "Achievements & Impact",
+      descriptions: [
+        "- Over the past year, NAGN has reached thousands of adolescent girls nationwide through workshops, trainings, and awareness campaigns",
+        "- Successfully reduced child marriages in target communities through advocacy and local engagement.",
+        "- Trained adolescent girls have become youth leaders and advocates, actively participating in policy discussions, community development, and social campaigns.",
+      ],
+    },
+    {
+      title: "",
+      descriptions: [
+        "NAGN is not just a network—it is a movement.",
+        "It is a force for equality, empowerment, and opportunity, ensuring every adolescent girl in Nepal can live with dignity, make informed choices, and contribute meaningfully to society.",
       ],
     },
   ],

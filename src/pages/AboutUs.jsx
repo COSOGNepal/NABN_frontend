@@ -1,11 +1,17 @@
 import './AboutUs.css';
 import Header from '../components/Header.jsx';
 import Footer from "../components/Footer.jsx";
+import { useEffect } from 'react';
 // import useFetch from "../hooks/useFetch.js";
 
 import Data from "../data/about.js";
 
 function AboutUs() {
+
+  useEffect(() => {
+      document.title = "About Us | National Adolescent Girls Network Nepal";
+    }, []);
+
   // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/about?populate[pagecontent][populate]=*");
 
   // // Handle loading and error states

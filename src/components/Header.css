@@ -68,12 +68,12 @@
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #007bff;
+  background-color: #B61B8A;
   transition: width 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #007bff;
+  color: #B61B8A;
 }
 
 .nav-links a:hover::after {

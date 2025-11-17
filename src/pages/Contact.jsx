@@ -1,6 +1,6 @@
 import './Contact.css';
 import Header from "../components/Header";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Footer from "../components/Footer.jsx"
 
 
@@ -11,6 +11,10 @@ function Contact() {
         subject: '',
         message: ''
     });
+
+    useEffect(() => {
+        document.title = "Contact Us | National Adolescent Girls Network Nepal";
+      }, []);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -24,7 +28,7 @@ function Contact() {
         e.preventDefault();
         const { name, email, subject, message } = formData;
         
-        const mailtoLink = `mailto:nabn.nepal@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+        const mailtoLink = `mailto:nationaladolescentgirlnetwork@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
             `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
         )}`;
         

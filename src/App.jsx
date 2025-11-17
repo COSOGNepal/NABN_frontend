@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(() => {
-    document.title = 'National Adolescence Boys Network Nepal';
+    document.title = "National Adolescence Girls' Network Nepal";
   }, []);
 
   return (

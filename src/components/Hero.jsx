@@ -48,7 +48,7 @@ function Hero() {
             </Link>
           </div>
           <div className="hero-image">
-            {imageUrl && <img src={imageUrl} alt="NABN Nepal Logo" />}
+            {imageUrl && <img src={imageUrl} alt="NAGN Nepal Logo" />}
           </div>
         </div>
       </div>

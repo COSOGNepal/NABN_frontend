@@ -1,6 +1,7 @@
 import "./Events.css";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import { useEffect } from "react";
 // import useFetch from "../hooks/useFetch.js";
 
 import Data from "../data/events.js";
@@ -13,6 +14,10 @@ export default function Events() {
 
   // // Get the events data from the response
   // const events = data?.data || [];
+
+  useEffect(() => {
+    document.title = "Events | National Adolescent Girls Network Nepal";
+  }, []);
 
   const events = Data;
 
